@@ -3,6 +3,7 @@ Localizable.strings
 ValorantStoreChecker
 
 Created by Gordon on 2022-08-07.
+Edited by Root Kim on 2023-06-04.
 */
 
 
@@ -10,7 +11,7 @@ Created by Gordon on 2022-08-07.
 // MARK: Onboarding
 // LoginView
 "SignIn" = "로그인";
-"PrivacyDisclaimer" = "계정이 없습니까?[가입](https://auth.riotgames.com/login)을 보려면 여기를 클릭하십시오.로그인을 클릭하면 귀하는 당사의 이용 약관 및 [개인 정보 보호 정책](https://www.craft.do/s/fqxdg6asyp8wak)에 동의합니다.";
+"PrivacyDisclaimer" = "계정이 없으신가요? [여기](https://auth.riotgames.com/login)를 눌러 계정을 만드세요! 로그인을 클릭하면 귀하는 당사의 이용 약관 및 [개인 정보 보호 정책](https://www.craft.do/s/fqxdg6asyp8wak)에 동의하는 것입니다.";
 
 // LoginViews -> LoginInfoView
 "Login" = "라이엇 계정에 로그인하세요";
@@ -28,25 +29,26 @@ Created by Gordon on 2022-08-07.
 "SouthKorea" = "한국";
 
 // LoginViews -> TermsView
-"TermsAndConditions" = "이용약관";
-"MITLicense" = "MIT 라이센스
-저작권 (c) 2022 Gordon Ng
+"TermsAndConditions" = "이용 약관";
+"MITLicense" = "MIT License
+Copyright (c) 2022 Gordon Ng
+이 문서에 기하여, 이 소프트웨어와, 이와 연관된 모든 문서(이하 ‘소프트웨어’라 합니다)의 복제본을 보유하게 되는 모든 사용자에 대하여, 다음의 권한이 무상으로 부여됩니다. 소프트웨어의 사용, 복제, 변경, 통합, 발행, 배포, 재실시, 판매에 대한 제약을 포함한 어떠한 제약 없이 본 소프트웨어를 취급할 수 있으며, 이는 제3자에 대한 소프트웨어 지급 시에도 동일하게 적용됩니다. 단, 이 모든 사항은 아래의 조건에 적용됩니다.
 
-사용, 복사, 수정, 병합, 게시할 수 있는 권한을 포함하여 제한 없이 소프트웨어를 제한 없이 처리할 수 있는 권한이 이 소프트웨어 및 관련 문서 파일(소프트웨어)의 사본을 얻는 모든 사람에게 무료로 부여됩니다. , 배포, 2차 라이선스 및/또는 소프트웨어 사본 판매 및 소프트웨어가 제공되는 사람이 그렇게 할 수 있도록 다음 조건에 따라 허용: 위의 저작권 고지 및 이 허가 고지는 모든 사본 또는 실질적인 소프트웨어의 일부.
+위 저작권 표시와 본 허가조항은 소프트웨어의 모든 복제본 혹은 중요한 부분에 포함되어야 합니다.
 
-소프트웨어는 상품성, 특정 목적에의 적합성 및 비침해성에 대한 보증을 포함하되 이에 국한되지 않고 명시적이든 묵시적이든 어떠한 종류의 보증 없이 있는 그대로 제공됩니다. 어떤 경우에도 작성자나 저작권 보유자는 소프트웨어 또는 소프트웨어의 사용 또는 기타 거래로 인해 또는 이와 관련하여 발생하는 계약, 불법 행위 또는 기타 행위에 관계없이 청구, 손해 또는 기타 책임에 대해 책임을 지지 않습니다. 소프트웨어.";
+소프트웨어는 "있는 그대로" 제공됩니다. 판매 적격성, 특정 용도에 대한 적합성, 준법성, 혹은 그 이상의 범위를 포함한 사항에 있어서, 명시적 혹은 묵시적으로 어떠한 보증도 하지 않습니다. 계약, 불법행위 등의 과정상의 개입 여부에 상관없이 어떠한 상황에서도, 본 소프트웨어의 저작자 혹은 저작권자는, 소프트웨어에서 혹은 소프트웨어와 연관되어 발생하는, 또한 사용 과정 중 혹은 기타 거래 도중 발생하는 어떠한 소유권 청구, 피해, 혹은 다른 법적 책임에 대해서도 책임을 지지 않습니다.";
 "Copyright" = "저작권";
-"CopyrightNotice" = "VSC(Store Checker for Valorant)는 Valorant 또는 Riot Games와 연관, 연결 또는 보증되지 않습니다. 또한 Riot Games 및 Valorant는 Riot Games Inc.에서 등록된 상표입니다.";
+"CopyrightNotice" = "ValStore (VS)는 Valorant 또는 Riot Games와 연관, 연결 또는 보증되지 않습니다. 또한 Riot Games 및 Valorant는 Riot Games Inc.에서 등록된 상표입니다.";
 
 //----------------------------------
 // MultifactorView
-"EnterTheCode" = "전송된 코드를 입력하십시오";
-"InvalidCode" = "잘못된 코드";
+"EnterTheCode" = "전송된 코드를 입력하세요";
+"InvalidCode" = "코드가 일치하지 않습니다";
 "TwoFactorAuthentication" = "2단계 인증";
 
 // DownloadView
-"DownloadAssets" = "자산 다운로드";
-"Stuck" = "멈췄습니까? 다시 시도하려면 여기를 클릭하십시오.";
+"DownloadAssets" = " 다운로드";
+"Stuck" = "멈췄나요? 다시 시도하려면 여기를 클릭하세요.";
 
 //----------------------------------
 // MARK: Home
@@ -55,8 +57,8 @@ Created by Gordon on 2022-08-07.
 
 //----------------------------------
 // NavTabBar -> TabBar
-"Store" = "스토어";
-"Bundle" = "번들";
+"Store" = "상점";
+"Bundle" = "세트";
 "SkinIndex" = "스킨 인덱스";
 "Settings" = "설정";
 
@@ -65,20 +67,20 @@ Created by Gordon on 2022-08-07.
 
 //----------------------------------
 // SkinCardDetailView -> PriceView
-"Cost" = "비용";
-"ExclusiveSkinMessage" = "이것은 Battlepass 전용, 캐릭터 전용 또는 한정판 스킨입니다.";
+"Cost" = "가격";
+"ExclusiveSkinMessage" = "배틀패스 전용, 캐릭터 전용 또는 한정판 스킨입니다.";
 
 // SkincardDetailView -> VideoPickerView
-"Tier" = "계층";
-"Default1" = "1. 기본값";
-"Default" = "기본값";
+"Tier" = "레벨";	
+"Default1" = "1. 기본";
+"Default" = "기본";
 "Unknown" = "알 수 없음";
 
 //----------------------------------
 // ShopTopBarView
-"Reloading" = "다시 로드 중";
-"Reload" = "다시 로드";
-"UpdateAvailable" = "업데이트 가능";
+"Reloading" = "새로고침 중";
+"Reload" = "새로고침";
+"UpdateAvailable" = "업데이트 설치 가능";
 
 //----------------------------------
 // BundleView
@@ -89,31 +91,31 @@ Created by Gordon on 2022-08-07.
 "NoOwned" = "상점을 새로고침하거나 스킨을 구입하세요 :)";
 "EmptySearch" = "검색어와 일치하는 항목이 없습니다.";
 "Statistics" = "통계";
-"TotalCollectionCost" = "총 수집 비용";
-"TotalSkinCount" = "총 피부 수";
+"TotalCollectionCost" = "총 수집품 비용";
+"TotalSkinCount" = "총 스킨 수";
 
 // SearchBar
 "Search" = "검색";
 
 // FilterView
-"All" = "모두";
-"Owned" = "소유";
-"Knife" = "나이프";
+"All" = "전체";
+"Owned" = "보유";
+"Knife" = "근접 무기";
 "Sidearm" = "보조 무기";
 "SMGs" = "기관단총";
-"Shotguns" = "샷건";
+"Shotguns" = "산탄총";
 "Rifles" = "소총";
-"Sniper" = "스나이퍼";
-"Heavy" = "무거움";
-"PriceSort" = "가격별로 정렬하십시오";
-"LowestFirst" = "가장 낮은 첫 번째";
-"HighestFirst" = "가장 먼저";
+"Sniper" = "저격소총";
+"Heavy" = "기관총";
+"PriceSort" = "가격순으로 정렬";
+"LowestFirst" = "오름차순";
+"HighestFirst" = "내림차순";
 
 //----------------------------------
 // SettingsView
 "HelpDev" = "개발자를 도와주세요!";
-"AutomaticReload" = "자동 다시 로드 중";
-"Notify" = "스토어 초기화 알림";
+"AutomaticReload" = "자동 새로고침";
+"Notify" = "상점 초기화 알림";
 "Allow" = "허용";
 "Appearance" = "모양";
 "Language" = "언어";
@@ -121,12 +123,12 @@ Created by Gordon on 2022-08-07.
 "Support" = "지원";
 "Community" = "커뮤니티";
 "Share" = "앱 공유";
-"Acknowledgements" = "승인";
+"Acknowledgements" = "지원에 감사드립니다!";
 "About" = "정보";
 
 //----------------------------------
 // AccountViews -> AccountView
-"RememberPasswordInfo" = "비밀번호는 키체인으로 보호됩니다. 로그아웃하거나 토글을 비활성화하면 자동으로 비밀번호를 잊어버립니다. 이 기능을 활성화하면 API 시간 제한을 우회하고 사용자 대신 자동 로그인이 가능합니다.";
+"RememberPasswordInfo" = "비밀번호는 키체인으로 보호됩니다. 로그아웃하거나 토글을 비활성화하면 자동으로 비밀번호가 삭제됩니다. 이 기능을 활성화하면 API 시간 제한을 우회하고 사용자를 대신하여 자동으로 로그인할 수 있습니다.";
 "SignOut" = "로그아웃";
 "Account" = "계정";
 "DeleteAccount" = "계정 삭제";
@@ -142,36 +144,36 @@ Created by Gordon on 2022-08-07.
 
 //----------------------------------
 // HelpViews -> HelpView
-"HelpMessage" = "안녕하세요! 저는 삶을 조금 더 낫게 만들고자 노력하는 수면 부족 대학생입니다 😄. 아래 방법을 통해 저를 도와주세요!";
+"HelpMessage" = "안녕하세요! 저는 삶을 좀 더 낫게 만들고자 노력하는 수면 부족 대학생입니다 😄. 아래 방법을 통해 저를 도와주세요!";
 "Review" = "리뷰를 남겨주세요";
-"Star" = "저장소 별표 표시";
-"HelpTranslate" = "번역 도움말";
+"Star" = "GitHub에 별점 남기기";
+"HelpTranslate" = "번역 참여하기";
 
 // HelpViews -> TipView
-"ShowAppreciation" = "감사 표시";
-"Sponsor" = "팁";
+"ShowAppreciation" = "감사 표시하기";
+"Sponsor" = "후원";
 
 //----------------------------------
 // AppearanceView
 "CheckUpdates" = "업데이트 확인";
 "ColourScheme" = "색상 구성표";
 "Auto" = "자동";
-"Light" = "빛";
-"Dark" = "어둡게";
+"Light" = "라이트";
+"Dark" = "다크";
 "Background" = "배경";
 "AppIcon" = "앱 아이콘";
-"DefaultDark" = "Default Dark";
-"3DDark" = "3D Dark";
-"Default Light" = "Default Light";
-"3DLight" = "3D Light";
+"DefaultDark" = "기본 다크";
+"3DDark" = "3D 다크";
+"Default Light" = "기본 라이트";
+"3DLight" = "3D 라이트";
 
 // MediaManagementView
-"AutoplayVideos" = "동영상 자동재생";
-"Both" = "둘 다";
+"AutoplayVideos" = "동영상 자동 재생";
+"Both" = "Wi-Fi / 셀룰러";
 "DownloadNewAssets" = "새로운 자산 다운로드";
-"WifiOnly" = "와이파이 전용";
-"CellularOnly" = "셀룰러만";
-"Never" = "안함";
+"WifiOnly" = "Wi-Fi";
+"CellularOnly" = "셀룰러";
+"Never" = "안 함";
 "ClearAssets" = "자산 지우기";
 "Clear" = "지우기";
 
@@ -179,24 +181,21 @@ Created by Gordon on 2022-08-07.
 "Create" = "지원 티켓 생성";
 "FAQ" = "자주 묻는 질문";
 "SourceCode" = "소스 코드";
-"FAQText" = "앱에 내 로그인 정보가 필요한 이유는 무엇입니까?
-                        
-대부분의 통계는 암호 없이 무료로 액세스할 수 있지만 스토어는 민감한 정보로 간주되므로 예외입니다. 앱이 스토어에 액세스하려면 이 [오픈 소스 API](https://github.com/HeyM1ke/ValorantClientAPI)를 통해 스토어를 가져오는 로그인 정보가 필요합니다.
-                        
-나를 보호하기 위한 조치는 무엇입니까?
+"FAQText" = "앱이 내 로그인 정보를 필요로 하는 이유는 무엇인가요?
+대부분의 통계는 비밀번호 없이도 자유롭게 액세스할 수 있지만, 상점은 예외적으로 민감한 정보로 간주됩니다. 앱이 상점에 액세스하려면 로그인 정보가 필요하며, 이를 통해 [오픈 소스 API](https://github.com/HeyM1ke/ValorantClientAPI)를 통해 상점을 가져옵니다.
 
-비밀번호를 저장하지 않는 것 외에도 지역을 포함한 민감한 정보는 키체인으로 보호됩니다. 또한 이 앱은 오픈 소스이므로 누구나 언제든지 코드에 액세스할 수 있습니다. 귀하의 개인 정보는 최우선 사항이며 이를 보장하기 위해 최선을 다했습니다. 합법적인 mumbo jumbo는 [여기](https://www.craft.do/s/fQxdg6aSyp8WAk)를 참조하세요.
+나를 보호하기 위해 어떤 조치가 취해지고 있나요?
+암호를 저장하지 않고, 지역과 같은 민감한 정보는 키체인 뒤에 안전하게 보호됩니다. 앱은 또한 오픈 소스로 되어 있어 누구나 언제나 코드에 접근할 수 있습니다. 개인 정보 보호는 최우선순위이며, 최선을 다해 보호하도록 노력하고 있습니다. 법적 세부 사항은 [여기](https://www.craft.do/s/fQxdg6aSyp8WAk)를 참조하세요.
 
-어떤 자산이 다운로드됩니까?
+어떤 자산이 다운로드되나요?
+다운로드되는 자산은 이미지로, 앱의 스킨 인덱스 기능을 오프라인 상태에서도 언제든지 사용할 수 있게 합니다.
 
-다운로드한 에셋은 오프라인 상태에서도 앱의 스킨 인덱스 기능을 항상 사용할 수 있는 이미지입니다.
+"비밀번호 기억" 기능은 무엇을 하는 건가요?
 
-암호 기억은 무엇을 합니까?
+현재 새로고침 버튼은 쿠키를 통해 사용자 이름과 비밀번호 대신에 필요로 하며, 이에 따라 앱은 비밀번호를 전혀 저장하지 않게 됩니다. 그러나 이러한 쿠키는 일정 기간 후에 만료되어 사용자가 다시 로그인해야 합니다. 이 과정을 간소화하기 위해 "비밀번호 기억" 기능은 사용자가 비밀번호를 저장하고 자동으로 백그라운드에서 로그인할 수 있게 합니다. 사용자가 비밀번호를 저장하지 않으려면 로그아웃하고 다시 로그인하여 새로운 쿠키를 생성하면 됩니다.";
 
-새로고침 버튼에 사용자 이름과 비밀번호 대신 쿠키가 필요한 현재 방식으로 앱이 비밀번호를 전혀 저장하지 않도록 합니다. 그러나 이러한 쿠키는 일정 기간이 지나면 만료되므로 사용자가 다시 로그인해야 합니다. 이 프로세스를 간소화하기 위해 암호 기억을 사용하면 사용자가 암호를 저장하고 백그라운드에서 자동 로그인을 허용할 수 있습니다. 사용자가 암호를 저장하지 않으려면 로그아웃했다가 다시 로그인하여 새 쿠키를 만들면 됩니다. ";
-
-// 커뮤니티뷰
-"WebAndDisc" = "웹사이트 및 Discord 봇";
+// 커뮤니티 보기
+"WebAndDisc" = "웹사이트 및 디스코드 봇";
 "DiscordServer" = "디스코드 서버";
 
 // AcknowledgementsView
@@ -213,34 +212,32 @@ Created by Gordon on 2022-08-07.
 //----------------------------------
 // MARK: Miscallaneous
 // AlertView
-"NetworkError" = "네트워크 없음";
+"NetworkError" = "네트워크 오류";
 "InfoPrice" = "이 스킨의 가격은 유감스럽게도 저희 데이터베이스에 없습니다.";
 "ErrorTitle" = "오류";
 "OK" = "확인";
-"CopyError" = "복사 오류";
-"ErrorMessage1" = "개인 쿠키가 만료되었습니다. 이것은 제가 제어할 수 없는 API 제한입니다. 이 문제를 해결하기 위한 2가지 옵션이 있습니다:
-1) 로그아웃하고 로그인합니다.
-2) 설정 > 계정에서 비밀번호 기억을 켭니다.";
-"ErrorMessage2" = "설정에 잘못된 암호가 설정됨";
+"CopyError" = "복사 중 오류가 발생했습니다.";
+"ErrorMessage1" = "개인 쿠키가 만료되었습니다. 이것은 제어할 수 없는 API 제한입니다. 이 문제를 해결하려면 로그아웃한 다음 다시 로그인하거나, 설정 > 계정에서 비밀번호 기억을 켜세요.";
+"ErrorMessage2" = "설정에 잘못된 암호가 설정되어 있습니다.";
 "ErrorMessage3" = "App Store에서 구입을 확인할 수 없습니다.";
-"ErrorMessage4" = "판매 중인 번들이 없습니다. 나중에 다시 시도하십시오.";
-"ErrorMessage5" = "내 비밀번호 함수는 자동 상점 재 장전을 위해 켜져 있어야합니다.";
+"ErrorMessage4" = "판매 중인 세트가 없습니다. 나중에 다시 시도해 주세요.";
+"ErrorMessage5" = "자동으로 상점을 새로고침하려면 "비밀번호 기억"이 켜져 있어야 합니다.";
 "InformationTitle" = "내 라이엇 계정이 왜 필요한가요?";
-"Information" = "비밀번호 없이 많은 통계에 무료로 액세스할 수 있지만 스토어는 민감한 정보로 간주되므로 예외입니다. 앱이 스토어에 액세스하려면 스토어를 얻는 로그인 정보가 필요합니다. 오픈 소스 API를 통해 추가 정보, 소스 코드 및 FAQ는 아래 링크에서 찾을 수 있습니다.";
+"Information" = "대부분의 통계는 비밀번호 없이도 자유롭게 액세스할 수 있지만, 상점은 예외적으로 민감한 정보로 간주됩니다. 앱이 상점에 액세스하려면 로그인 정보가 필요하며, 이를 통해 오픈 소스 API를 통해 상점을 가져옵니다. 추가 정보, 소스 코드 및 FAQ는 아래 링크에서 확인할 수 있습니다.";
 "InvalidLogin" = "유효하지 않은 로그인";
 "Reset" = "재설정";
 "ResetInfo" = "가끔 일부 버그로 인해 오류가 발생할 수 있습니다. 이 버튼을 사용하면 이러한 오류 발생 시 앱을 완전히 재설정할 수 있습니다.";
-"ReviewTitle" = "VSC가 마음에 드십니까?";
-"OpenGitHub" = "GitHub 별 남기기";
+"ReviewTitle" = "ValStore가 마음에 드십니까?";
+"OpenGitHub" = "GitHub 별점 남기기";
 "MaybeLater" = "나중에";
 "NeverShowAgain" = "다시 표시하지 않음";
-"ReviewPrompt" = "GitHub에 리뷰나 별표를 남겨주세요!";
+"ReviewPrompt" = "GitHub에 리뷰나 별점을 남겨주세요!";
 
 // UpdatesView
 "UpdateButton" = "새로운 앱 버전 사용 가능";
-"UpdateInstructions1" = "업데이트 옵션이 없는 경우 다음을 수행하십시오.";
-"UpdateInstructions2" = "홈(오늘) 탭으로 이동";
-"UpdateInstructions3" = "오른쪽 상단에서 프로필을 클릭하십시오";
-"UpdateInstructions4" = "다시 로드하려면 아래로 스와이프하세요";
-"UpdateInstructions5" = "사용 가능한 업데이트를 보려면 아래로 스크롤하십시오.";
+"UpdateInstructions1" = "업데이트 옵션이 없는 경우";
+"UpdateInstructions2" = "홈(오늘) 탭으로 이동하세요";
+"UpdateInstructions3" = "오른쪽 상단에서 프로필을 클릭하세요";
+"UpdateInstructions4" = "아래로 스와이프 하여 새로고침하세요";
+"UpdateInstructions5" = "아래로 스크롤 하여 업데이트를 확인하세요";
 "UpdateTitle" = "앱 업데이트";

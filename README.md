@@ -1,3 +1,5 @@
+<h1>⚠️Due to a copyright notice, the app is no longer available to download on the app store. A copyright compliant version will be implemented soon. For now, please download through TestFlight below.⚠️</h1>
+
 <p align="center">
   <image src="https://user-images.githubusercontent.com/77747704/221028543-65ac17be-28cc-4398-b61c-7cb6097c65a0.png" width="196px" height="196px" />
 </p>
@@ -83,6 +85,8 @@ to expand the answer
 - **[Valorant-API.com](https://valorant-api.com) for providing assets.**
 
 # 📚 **TOS and Privacy Policy**
+This application is not endorsed by Riot Games in any way.
+Riot Games, Valorant, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 - **[MIT License](https://github.com/SoloUnity/Valorant-Store-Checker-App/blob/main/License)**
 - **[Privacy Policy](https://www.craft.do/s/fQxdg6aSyp8WAk)**
 
